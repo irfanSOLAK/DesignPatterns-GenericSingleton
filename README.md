@@ -1,4 +1,4 @@
-# DesignPatterns-GenericSingleton
+# GenericSingleton-DesignPatterns
 Generic Singleton Design Pattern for Unity
 
 # Description
