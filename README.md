@@ -2,7 +2,7 @@
 Generic Singleton Design Pattern for Unity
 
 # Description
-You can use the Singleton class as a base class. The Singleton class (child) inherits the fields and methods from the MonoBehaviour class (parent). It is an implementation of the Singleton Design Pattern. The singleton class ensures that there is only one instance of the child class(es).
+It is an implementation of the Singleton Design Pattern. You can use the Singleton class as a base class. The Singleton class (child) inherits the fields and methods from the MonoBehaviour class (parent). The singleton class ensures that there is only one instance of the child class(es).
 
 # How to use
 The GameBehaviour class is an example of how to use it. It is derived from the Singleton class and can be used as a GameManager. Usage: 
