@@ -1,10 +1,10 @@
 # GenericSingleton-DesignPatterns
 Generic Singleton Design Pattern for Unity
 
-# Description
+## Description
 It is an implementation of the Singleton Design Pattern. You can use the Singleton class as a base class. The Singleton class (child) inherits the fields and methods from the MonoBehaviour class (parent). The singleton class ensures that there is only one instance of the child class(es).
 
-# How to use
+## How to use
 The GameBehaviour class is an example of how to use it. It is derived from the Singleton class and can be used as a GameManager. Usage: 
 
 public class ScriptName : Singleton<ScriptName>
@@ -14,7 +14,7 @@ public class ScriptName : Singleton<ScriptName>
 
 As many new classes as desired can be derived from the singleton class, such as AudioManager, NotificationManager, and so on.
 
-# How to access GameBehaviour class
+## How to access GameBehaviour class
 You can access the GameBehaviour class and its public methods, variables, etc. using the following code:
 
 GameBehaviour.Instance.MethodName();
